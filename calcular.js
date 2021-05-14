@@ -1,13 +1,13 @@
-Swal.fire({
-    icon: 'succes',
-    title: 'WELCOME'
-})
 
 var operandoA;
 var operandoB;
 var operador;
 
 function inicializar(){
+    Swal.fire({
+        icon: 'success',
+        title: 'WELCOME'
+    })
     //variables
     var num1 = document.getElementById('num1');
     var num2 = document.getElementById('num2');

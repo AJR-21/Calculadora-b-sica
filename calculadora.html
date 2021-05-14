@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alexander Jimenez">
+    <meta name="keywords" content="calculadora básica">
+    <title>Calculadora básica con JS</title>
+    <link rel="stylesheet" href="disenno.css">
+</head>
+<body onload="inicializar();">
+    <h2>Calculadora</h2>
+    <div>
+        
+    </div>
+    <table class="cuadro">
+        <tr>
+            <td colspan="3" id="resultado"></td>
+        </tr>
+        
+        <tr>
+            <td><button id="num1">1</button> </td>
+            <td><button id="num2">2</button> </td>
+            <td><button id="num3">3</button> </td>
+        </tr>
+        <tr>
+            <td><button id="num4">4</button> </td>
+            <td><button id="num5">5</button> </td>
+            <td><button id="num6">6</button> </td>
+        </tr>
+        <tr>
+            <td><button id="num7">7</button> </td>
+            <td><button id="num8">8</button> </td>
+            <td><button id="num9">9</button> </td>
+        </tr>
+        <tr>
+            <td><button id="suma">+</button> </td>
+            <td><button id="resta">-</button></td>
+            <td><button id="cero">0</button> </td>
+        </tr>
+        <tr>
+            <td><button id="mult">*</button> </td>
+            <td><button id="div">/</button> </td>
+            <td><button id="borrar">C</button> </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: center;"><button id="igual">=</button></td>
+        </tr>
+    </table>
+
+    <script src="calcular.js"></script>
+    
+</body>
+</html>

@@ -1,3 +1,8 @@
+Swal.fire({
+    icon: 'succes',
+    title: 'WELCOME'
+})
+
 var operandoA;
 var operandoB;
 var operador;
